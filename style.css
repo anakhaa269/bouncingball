@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #111;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+canvas {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#counter-panel {
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  top: 10px;
+  left: 10px;
+}
+
+#color-counts {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+}
+
+#color-counts li {
+  margin-bottom: 4px;
+}
